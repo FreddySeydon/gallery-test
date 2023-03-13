@@ -1,0 +1,107 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    0deg,
+    rgb(93, 77, 57) 11%,
+    rgba(222, 184, 135, 0.654) 62%
+  );
+}
+
+body {
+  padding-left: 5%;
+  padding-right: 2%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  height: 15vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgba(141, 141, 141, 0.5);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 30px;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+nav a:hover {
+  color: black;
+  font-size: 23px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+article {
+  padding: 2%;
+  max-width: 80em;
+  min-width: 20em;
+  border-radius: 1em;
+  border-style: dotted;
+  border-width: 0.1em;
+}
+
+.gallery {
+  background-color: rgba(219, 187, 144, 0.61);
+  box-sizing: border-box;
+  align-content: center;
+}
+
+.gallery2 {
+  background-color: rgba(128, 128, 128, 0.61);
+  border-width: 1px;
+  box-sizing: border-box;
+  align-content: center;
+  margin-top: 0.5em;
+}
+
+.desc {
+  margin-top: 0.5em;
+  background-color: cornsilk;
+}
+
+#pics {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#pics img {
+  max-height: 200px;
+  border-radius: 5px;
+}
+footer nav ul {
+  display: block;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+figure {
+  text-align: center;
+}
